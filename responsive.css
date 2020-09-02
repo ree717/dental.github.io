@@ -4,6 +4,7 @@
 
   .theme{
     display: block;
+    text-align: center;
 
 
   }
@@ -17,11 +18,14 @@
   .app{
     display: inline-block;
   }
-
+  header{
+    width:100%;
+  }
 
   main{
-    flex-direction: column-reverse;
     margin-top:250px;
+    flex-direction: column-reverse;
+    width:100%;
 
   }
   .general{
@@ -34,18 +38,33 @@
 
   }
   #side_main{
-
+    max-width:100%;
     margin:auto;
 
   }
-  .image img{
-    display: block;
-     width:900px;
+  #side_main img{
+    max-width:100%;
   }
+  .new_info{
+    max-width:100%;
+    min-height:740px;
+
+
+
+  }
+ .new_info p{
+    flex-direction:column;
+
+
+
+  }
+
+
 
   #hos_intro{
     width:100%;
     margin:auto;
+    height:auto;
   }
   #medical_intro{
     width:100%;
@@ -55,12 +74,39 @@
     width:100%;
     margin:auto;
   }
+  .img_history{
+    display:block;
+  }
+  .pro1{
+    max-width:80%;
+  }
   #access{
     width:100%;
     margin:auto;
   }
-  footer{
-    text-align: center;
+  .access_info{
+    display:block;
   }
-
+  .side_info{
+    margin-left:30px;
+  }
+  .pro_img{
+    max-width:70%;
+  }
+  footer{
+    width:100%;
+  }
+  .f_nav {
+   box-sizing:border-box;
+   height:auto;
 }
+  .f_nav ul{
+    display: block;
+  }
+  .dental{
+    display:block;
+  }
+  .f_ad p{
+    flex-direction:column;
+    text-align:left;
+  }
