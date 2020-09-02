@@ -1,0 +1,215 @@
+body{
+  background-color: #F6F6F6;
+}
+
+
+header{
+  width:920px;
+  height:200px;
+  text-align: center;
+  margin:auto;
+
+}
+.theme{
+  display:flex;
+  }
+.h_p:first-child{
+    margin-right:auto;
+  }
+.h_p{
+  margin-left: auto;
+  text-align: right;
+  flex-direction: column;
+}
+.local{
+  font-size:10px;
+  padding-top:10px;
+}
+.tel{
+  font-size:26px;
+  color:#515151
+}
+.h_nav button{
+  width:20%;
+  height:70px;
+  background-color:#6cc6c4;
+  color:#fff;
+  border-radius: 6px;
+
+}
+main{
+  display:flex;
+  padding-top:40px;
+
+  width:920px;
+  margin:auto;
+}
+.general{
+  border:solid 1px #6cc6c4;
+  border-radius: 6px 6px 0px 0px;
+  height:232px;
+  width:262px;
+  background-color: #fff;
+
+}
+.general li{
+  width:200px;
+  padding-top:7px;
+  padding-bottom:7px;
+  border-bottom:1px solid #6cc6c4;
+  font-weight: 700;
+
+
+
+
+}
+.general li a:hover { text-decoration: none;
+color:#6cc6c4;}
+.general a { text-decoration: none;
+  color: black;
+}
+
+.beauty{
+  margin-top:20px;
+  border:solid 1px #6cc6c4;
+  border-radius: 6px 6px 0px 0px;
+  height:232px;
+  width:262px;
+  background-color:#fff;
+  font-weight:700;
+
+}
+.beauty li{
+  border-bottom:solid 1px #6cc6c4;
+  font-size:14px;
+  width:200px;
+  padding-top:7px;
+  padding-bottom:7px;
+
+}
+.beauty li a:hover { text-decoration: none;
+color:#6cc6c4;}
+.beauty a { text-decoration: none;
+  color: black;
+}
+
+.date p{
+  border-bottom:solid 1px ;
+
+  font-size:13px;
+  padding:15px;
+  margin:0px 30px;
+  padding-bottom:12px;
+    display:flex;
+}
+#side_main{
+margin-left:20px;
+ margin-bottom:10px;
+ width:640px;
+
+}
+
+#hos_intro{
+  background-color:#fff;
+  height:1279px;
+  width:640px;
+  margin-left:20px;
+  border-radius:6px 6px 6px 6px;
+  display:none;
+}
+#medical_intro{
+  background-color:#fff;
+  height:1332px;
+  width:640px;
+  margin-left:20px;
+  border-radius:6px 6px 6px 6px;
+  display: none;
+}
+#general_li{
+  font-size:12px;
+  margin:0px 30px;
+
+}
+#general_li p{
+    border:solid 2px;
+    height:50px;
+}
+.beauty_li{
+  font-size:12px;
+  margin:0px 30px;
+
+}
+.beauty_li p{
+    border:solid 2px;
+    height:50px;
+}
+.medical_intro p{
+  border:solid 40px #515151 ;
+}
+#staff_intro{
+  background-color:#fff;
+  height:1200px;
+  width:640px;
+  margin-left:20px;
+  border-radius:6px 6px 6px 6px;
+  display:none;
+}
+.img_history{
+  display:flex;
+  margin:0px 30px;
+}
+.teacher_history{
+  margin:0px 30px;
+}
+#access{
+  background-color:#fff;
+  height:900px;
+  width:640px;
+  margin-left:20px;
+  border-radius:6px 6px 6px 6px;
+  display:none;
+}
+.access_info{
+  display:flex;
+}
+.side_info{
+    flex-direction: column;
+}
+
+footer{
+  padding-top:20px;
+  width:930px;
+  height:130px;
+  margin:auto;
+
+}
+.f_nav{
+  border:solid 1px #6cc6c4;
+  background-color:#6cc6c4;
+  height:30px;
+  padding-bottom:10px;
+  border-radius: 6px;
+
+
+}
+.f_nav li{
+  color:#fff;
+  padding-right:20px;
+  font-size:13px;
+
+}
+.f_nav ul{
+  display:flex;
+  align-items:center;
+
+
+}
+.f_ad{
+  border-bottom:solid 2px #6cc6c4;
+  text-align:right;
+  font-size:13px;
+}
+.f_logo{
+  text-align:center;
+  font-size:12px;
+}
