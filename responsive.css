@@ -1,0 +1,66 @@
+@media(max-width:670px){
+
+
+
+  .theme{
+    display: block;
+
+
+  }
+  .h_p{
+    text-align: center;
+  }
+  .h_nav button{
+
+    width:50%;
+  }
+  .app{
+    display: inline-block;
+  }
+
+
+  main{
+    flex-direction: column-reverse;
+    margin-top:250px;
+
+  }
+  .general{
+    margin-top:20px;
+    width:100%;
+
+  }
+  .beauty{
+    width:100%
+
+  }
+  #side_main{
+
+    margin:auto;
+
+  }
+  .image img{
+    display: block;
+     width:900px;
+  }
+
+  #hos_intro{
+    width:100%;
+    margin:auto;
+  }
+  #medical_intro{
+    width:100%;
+    margin:auto;
+  }
+  #staff_intro{
+    width:100%;
+    margin:auto;
+  }
+  #access{
+    width:100%;
+    margin:auto;
+  }
+  footer{
+    text-align: center;
+  }
+
+}
